@@ -1,4 +1,4 @@
-// Getting Elements from DOM 
+// Getting Elements from DOM
 const currOnePicker = document.getElementById('currency-one');
 const currTwoPicker = document.getElementById('currency-two');
 const currOneAmount = document.getElementById('amount-one');
@@ -12,7 +12,7 @@ function calculate() {
     const currencyOneCode = currOnePicker.value;
     const currencyTwoCode = currTwoPicker.value;
     
-    fetch(`https://v6.exchangerate-api.com/v6/7a6731114b2ceb2a8b58e3fe/latest/${currencyOneCode}`)
+    fetch(`https://v6.exchangerate-api.com/v6/a43d02c063c1303f1c06c071/latest/${currencyOneCode}`)
         .then( res => res.json() )
         .then( data => {
             // Get the Exchange Rate from API Data
@@ -35,8 +35,8 @@ function flip() {
 };
 
 // Event Listeners
-currOnePicker.addEventListener('chane', calculate);
-currTwoPicker.addEventListener('chane', calculate);
+currOnePicker.addEventListener('change', calculate);
+currTwoPicker.addEventListener('change', calculate);
 currOneAmount.addEventListener('input', calculate);
 currTwoAmount.addEventListener('input', calculate);
 flipButton.addEventListener('click', flip);

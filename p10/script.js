@@ -12,7 +12,18 @@ const cover = document.getElementById('cover');
 const songList = [  'wali khan1', 
                     'wali khan', 
                     'wali khan2', 
-                    'wali khan3'
+                    'wali khan3',
+                    'wali khan4',
+                    'wali khan5',
+                    'wali khan6',
+                    'wali khan7',
+                    'wali khan8',
+                    'wali khan9',
+                    'wali khan10',
+                    'wali khan11',
+                    'wali khan12',
+                    'wali khan13',
+                    'wali khan14'
                 ];
 
 // Track Which song is currently playing

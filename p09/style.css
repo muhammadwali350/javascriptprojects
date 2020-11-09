@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: #00cec9;
     display: flex;
     flex-direction: column;
     align-items: center;

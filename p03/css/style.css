@@ -45,6 +45,14 @@ h1 {
     outline: 0;
 }
 
+.fa-backward {
+    color: #7f8c8d;
+}
+
+.fa-forward {
+    color: #7f8c8d;
+}
+
 .fa-play {
     color: greenyellow;
 }
@@ -68,4 +76,4 @@ span.timestamp {
     .screen, .controls {
         width: 90%;
     }
-}    
+}   
